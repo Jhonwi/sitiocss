@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script type="text/javascript" src="js/jquery.js"></script>	
+		<script type="text/javascript">
+
+			$(document).ready(inicio)
+			function inicio(){
+				$("select").change(cambiacss);
+			}
+			function cambiacss(){
+				var plantilla =$("select").attr("value");
+				$("plantilla").html('<link rel=Stylesheet href="css/'+plantilla+'.css" type="text/css">')
+			}
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/base.css">
+		<plantilla>
+
+		</plantilla>
+	</head>
+
+		<body>
+			<select name="plantilla">
+				<option value="">Selecciona una plantilla</option>
+				<option value="pc1">Plantilla para pc</option>
+				<option value="pchd">Plantilla HD</option>
+				<option value="movil">Plantilla movil</option>
+				<option value="tablet">Plantilla tablet</option>
+			</select>
+			<hr>
+			<div= "contenedor">
+				<header>
+					<div id="titulo">
+						<div id="logo"></div>
+						<h1>Alcaldía de Medellín</h1>
+						<h2>Subdirección de Catastro</h2>
+					</div>
+					<nav>
+						<ul>
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="predios.html">Predios</a>
+							</li>
+							<li>
+								<a href="oime.html">Productos</a>
+							</li>
+							<li>
+								<a href="contacto.html">Contacto</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				<section>
+					<form method="POST" action ="procesaformulario.php" >
+						
+
+					</form>
+				</section>
+				<footer>
+					<h6>Jhon Orrego</h6>
+				</footer>
+			</div>
+		</body>
+</html>
