@@ -1,0 +1,10 @@
+body{
+	
+}
+#contenedor{
+	border: 2px solid black;
+	width: 600px;
+	margin: auto;
+	background-color: #a1244b;
+}
+
