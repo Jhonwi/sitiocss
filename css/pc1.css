@@ -2,9 +2,31 @@ body{
 	
 }
 #contenedor{
-	border: 2px solid black;
+	border: 1px dotted grey;
 	width: 600px;
 	margin: auto;
-	background-color: #a1244b;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px; padding: 0px;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+nav ul li{
+	float: left;
+	padding: 4px;
+	margin: 4px;
+	border-right: 1px dashed grey;
+	text-align: center;
+
+}
+nav ul li a {
+
+	text-decoration: none;
+	color: blue;
+	text-align: center;
+}

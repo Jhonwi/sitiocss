@@ -3,18 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<script type="text/javascript" src="js/jquery.js"></script>	
-		<script type="text/javascript">
-
-			$(document).ready(inicio)
-			function inicio(){
-				$("select").change(cambiacss);
-			}
-			function cambiacss(){
-				var plantilla =$("select").attr("value");
-				$("plantilla").html('<link rel=Stylesheet href="css/'+plantilla+'.css" type="text/css">')
-			}
-			
-		</script>
+		<script type="text/javascript" src="js/personal.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<plantilla>
 		<link rel="stylesheet" type="text/css" href="css/pc1.css">
@@ -53,6 +42,8 @@
 							</li>
 						</ul>
 					</nav>
+					<!-- para terminar con la flotacion -->
+					<div style="clear:both;"></div>
 				</header>
 				<section>
 					<div = "banner">
