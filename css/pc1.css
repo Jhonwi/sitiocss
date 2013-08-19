@@ -1,15 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC);
+
 body{
-	
+	background: rgba(0,0,0,0.1);
 }
 #contenedor{
-	border: 1px dotted grey;
-	width: 600px;
+	border: 0px dotted grey;
+	width: 900px;
 	margin: auto;
+	padding: 20px;
 }
 
 h1,h2,h3,h4,h5,h6,p{
 	margin: 0px; padding: 0px;
+	
 }
+h1,h2{
+	margin: 0px; padding: 0px;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+h1{
+	font-family: 'Marcellus SC', serif;
+	color: white;
+	text-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+h2{
+	font-family: arial;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	position: relative;
+	top: 20px;
+	left: 20px;
+}
+
 ul{
 	list-style-type: none;
 	padding: 0px;
@@ -22,11 +46,86 @@ nav ul li{
 	margin: 4px;
 	border-right: 1px dashed grey;
 	text-align: center;
+	width: 100px;
+	transition:all 1s;
 
 }
+nav ul li:hover{
+	background: rgba(255,255,255,0.3);
+}
+
 nav ul li a {
 
 	text-decoration: none;
 	color: blue;
 	text-align: center;
+}
+#banner{
+	width: 100%;
+	height: 250px;
+	border: 0px solid black;
+	background:url(../img/htm5lvolar.jpg);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+	
+}
+#contienebanner{
+	padding: 10px;
+	background: rgba();
+}
+article{
+	width: 33%
+	text-align:justify;
+	float: left;
+	padding: 10px;
+}
+.contienearticulo{
+	padding: 1px;
+	height: 200px;
+	overflow: hidden;
+}
+#primerarticulo{
+	padding-left: 0px;
+}
+#tercerarticulo{
+	padding-right: 0px;
+}
+footer{
+	margin-top: 30px;
+	height: 40px;
+	text-align: center;
+
+}
+#logo{
+	height: 100px;
+	width: 100px;
+	background: url(../img/jhonorrego.png);
+	background-size: 100% 100%;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.ImagenInformacion{
+	width: 100%;
+	height: 100px;
+	background: grey;
+	margin-bottom: 10px;
+	background-size: 100% 100%
+}
+#img1{
+	background: url(../img/aprendiendocss.jpg);
+	background-size: 100% 100%
+}
+#img2{
+	background: url(../img/estoes.jpg);
+	background-size: 100% 100%
+}
+#img3{
+	background: url(../img/htm5lvolar.jpg);
+	background-size: 100% 100%
+}
+#banner #contienebanner p{
+	font-size: 10px;
+
 }
